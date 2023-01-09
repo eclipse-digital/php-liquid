@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "php": "^7.3 || ^8.0"
+        "php": "^7.3 || ^8.1"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.8",
@@ -40,11 +40,6 @@
         "sort-packages": true,
         "allow-plugins": true
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    },
     "autoload": {
         "psr-4": {
             "Liquid\\": "src/Liquid"
@@ -54,5 +49,6 @@
         "psr-4": {
             "Liquid\\": "tests/Liquid"
         }
-    }
+    },
+    "version": "2.0.0"
 }
